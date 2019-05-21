@@ -1,0 +1,15 @@
+$bgColor: green !default;
+$boxColor: blue !default;
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: $bgColor;
+}
+
+.box-other {
+  background-color: $boxColor;
+}
+
